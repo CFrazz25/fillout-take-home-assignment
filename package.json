@@ -2,11 +2,11 @@
   "name": "fillout-take-home-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
     "start": "nodemon src/app.ts",
     "build": "tsc",
-    "serve": "node dist/app.js",
+    "serve": "npm run build && node dist/app.js",
     "test": "jest"
   },
   "keywords": [],
